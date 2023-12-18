@@ -1,10 +1,9 @@
 # Instruciones de Instalación
 1. Es necesario tener instalado una base de datos MySQL, recomendable XAMPP
 o similar. Se ha utilizado `MySQL: MariaDB 10.4.27`.
-2. Necesario tener instalado `Node.js v20.10.`. Por lo tanto,
+2. Necesario tener instalado `Node.js v20.10.0`. Por lo tanto,
 solo se garantiza su funcionamiento con esta versión.
 3. Arrancar el proceso demonio de la Base de datos
-`mysql -u root`
 4. Importante. tener creado un usuario `root` en la base de datos `sin password`. De lo contrario el servidor no arrancaria.
 5. Importante. crear una base de datos de nombre `pokemon_app` `CREATE DATABASE pokemon_app`. De lo contrario el servidor no arrancaria.
 6. Nos situamos en el directorio `/Pokemon_App/node_backend/` para arrancar nuestrro servidor.
